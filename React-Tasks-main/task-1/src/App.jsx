@@ -4,16 +4,16 @@
 // მხოლოდ User კომპონენტში უნდა შევცვალოთ კოდი
 
 const userData = {
-  firstName: "Niko", // შეგიძლიათ რაც გაგიხარდებათ ის მნიშვნელობა ჩაწეროთ
-  lastName: "Ambroladze", // შეგიძლიათ რაც გაგიხარდებათ ის მნიშვნელობა ჩაწეროთ
-  title: "Instructor", // შეგიძლიათ რაც გაგიხარდებათ ის მნიშვნელობა ჩაწეროთ
+  firstName: "alexsandre", // შეგიძლიათ რაც გაგიხარდებათ ის მნიშვნელობა ჩაწეროთ
+  lastName: "chitishvili", // შეგიძლიათ რაც გაგიხარდებათ ის მნიშვნელობა ჩაწეროთ
+  title: "student", // შეგიძლიათ რაც გაგიხარდებათ ის მნიშვნელობა ჩაწეროთ
 };
 
 function User() {
   return (
     <div id="user" data-testid="user">
-      <h2>TODO: FIRST NAME LAST NAME</h2>
-      <p>TODO: TITLE</p>
+      <h2>{userData.firstName} {userData.lastName}</h2>
+      <p>{userData.title}</p>
     </div>
   );
 }

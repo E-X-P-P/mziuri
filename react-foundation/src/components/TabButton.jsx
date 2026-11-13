@@ -1,7 +1,7 @@
-export default function TabButton (){
+export default function TabButton (props){
   return (
   <li>
-    <button> click me</button>
+    <button> {props.title}</button>
   </li>
   )
 }
